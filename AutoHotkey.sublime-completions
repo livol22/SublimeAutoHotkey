@@ -292,7 +292,7 @@
             { "trigger": "IL_Add()", "contents": "IL_Add(${1:ImageListID}, ${2:Filename [}, ${3:IconNumber}, ${4:ResizeNonIcon?]})" },
             { "trigger": "IL_Create()", "contents": "IL_Create(${1:[InitialCount}, ${2:GrowCount}, ${3:LargeIcons?]})" },
             { "trigger": "IL_Destroy()", "contents": "IL_Destroy(${1:ImageListID})" },
-            { "trigger": "InStr()", "contents": "InStr(${1:Haystack}, ${2:Needle [}, ${3:CaseSensitive?}, ${4:StartingPos]})" },
+            { "trigger": "InStr()", "contents": "InStr(${1:Haystack}, ${2:Needle [}, ${3:CaseSensitive?}, ${4:StartingPos}, ${5:Occurence]})" },
             { "trigger": "IsByRef()", "contents": "IsByRef(${1:Var})" },
             { "trigger": "IsFunc()", "contents": "IsFunc(${1:FunctionName})" },
             { "trigger": "IsLabel()", "contents": "IsLabel(${1:LabelName})" },
